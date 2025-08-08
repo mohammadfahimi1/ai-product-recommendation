@@ -1,41 +1,66 @@
-# AI Product Recommendation System
+# 🛍️ AI Product Recommendation
 
-## Description
+A simple web application that recommends products based on user-selected preferences such as category and budget.  
+This is a basic rule-based recommendation system built with vanilla JavaScript.
 
-This is a simple e-commerce product catalog app with an AI-powered recommendation system.  
-Users can filter products by category, price, and rating. The system also suggests top recommended products based on the selected filters.
+---
 
-## Features
+## 🔧 How to Run the App
 
-- Display static list of products with details: name, price, category, description, rating.
-- Filter products by category, max price, and minimum rating.
-- AI-powered recommendation system that suggests 3-5 relevant products based on filters.
+1. Clone the repository
 
-## How to Run
+   ```bash
+   git clone https://github.com/mohammadfahimi1/ai-product-recommendation.git
+   cd ai-product-recommendation
+   ```
 
-1. Clone the repository:  
-   `git clone https://github.com/your-username/ai-product-recommendation.git`
-2. Open `index.html` in your browser (no server needed).
-3. Use the filter options to browse and get recommendations.
+2. Open `index.html` in your browser  
+   Or use a Live Server extension if you're using VS Code.
 
-## AI Feature
+3. Alternatively, open the deployed version  
+   👉 [Click here to open the live demo](https://ai-product-recommendation.netlify.app)
 
-- **Recommendation System** (Rule-based filtering)  
-  Filters products based on user-selected criteria and recommends the top 5 matching items.
+---
 
-## Tools / Libraries Used
+## 🧠 AI Feature Used
 
-- Vanilla JavaScript
-- HTML5 & CSS3
+This app uses a **basic rule-based recommendation system**.  
+Based on the user’s selected preferences (category and budget), it filters and recommends 3–5 matching products.
 
-## Assumptions
+There is no external AI/ML model involved — logic is implemented in JavaScript using conditions and filtering.
 
-- Product data is static and stored locally in the script.
-- Recommendation is rule-based, no external AI API used.
+---
 
-## Bonus Idea
+## 🛠 Tools / Libraries Used
 
-This AI recommendation system can be integrated with blockchain by storing user preferences and loyalty points on-chain, enabling token-gated pricing or personalized offers via smart contracts.
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Netlify for deployment
+- Git & GitHub for version control
+
+---
+
+## 📌 Notable Assumptions
+
+- The user selects a product category and defines a maximum budget.
+- The system uses a static product list defined in JavaScript.
+- No backend or database is used — everything runs on the client side.
+- This is a **minimal MVP-style demo** for the challenge.
+
+---
+
+## 🎥 Demo Video
+
+_A short video walkthrough link will go here once uploaded_  
+→ Replace this line with your YouTube or Google Drive link.
+
+---
+
+## 📄 License
+
+This project is licensed under the **Apache License 2.0**.  
+See the [LICENSE](./LICENSE) file for more details.
 
 ---
 
