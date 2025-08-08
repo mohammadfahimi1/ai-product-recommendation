@@ -52,8 +52,8 @@ There is no external AI/ML model involved — logic is implemented in JavaScript
 
 ## 🎥 Demo Video
 
-_A short video walkthrough link will go here once uploaded_  
-→ Replace this line with your YouTube or Google Drive link.
+🎥 Demo Video  
+Watch the project walkthrough here: [Google Drive Link](https://drive.google.com/file/d/1NeBYcZYG1NJPj3iJyLaClQh2BCCR4LPv/view?usp=sharing)
 
 ---
 
